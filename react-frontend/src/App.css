@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.create-hide {
+  visibility: hidden;
+}
+
+.create-show {
+  visibility: visible;
+}
+
+.add {
+  background-color: blue;
+}
+
+.cancel {
+  background-color: red;
+  margin-right: 0.5in;
+}
+
+.edit-hide {
+  visibility: hidden;
+}
+
+.edit-show {
+  visibility: visible;
+}
+
+.save {
+  background-color: blue;
+}
+
+
+
