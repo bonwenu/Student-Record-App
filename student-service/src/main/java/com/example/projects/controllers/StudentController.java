@@ -34,7 +34,7 @@ public class StudentController {
 		return sr.save(s);
 	}
 	
-	@PutMapping()
+	@PutMapping("/{id}")
 	public Student updateStudent(@RequestBody Student s) {
 		return sr.save(s);
 	}
